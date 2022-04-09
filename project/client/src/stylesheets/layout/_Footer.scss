@@ -1,6 +1,21 @@
 .bar {
-    margin-bottom: -2rem;
+  margin-bottom: -3rem;
+  background-color: black !important;
+}
+.txt {
+  text-decoration: none;
+  color: #fff;
+
+
 }
 .txt:hover {
 color: blue !important;
+} 
+
+.text-center {
+  color: #fff;
+}
+
+.text-center-title {
+  color: #1e1e1e;
 }

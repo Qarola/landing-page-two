@@ -1,6 +1,8 @@
 body {
   margin: 0 !important;
   padding: 0 !important;
+  height: 100vh;
+  background: #fff;
   font-family: Roboto, Helvetica, Arial, sans-serif;
 /*   background: rgb(46, 46, 46);
  */

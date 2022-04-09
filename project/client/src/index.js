@@ -6,7 +6,6 @@ import 'mdbreact/dist/css/mdb.css'; */
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import "./stylesheets/App.scss";
 import './index.css';
 
 ReactDOM.render(

@@ -1,0 +1,36 @@
+/*
+GENERAL STYLING
+*/
+body {
+  background-color: #fff !important;
+  scroll-behavior: auto;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+
+/*   color: #4e4e4e!important;
+ */}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e1e1e;
+}
+
+a {
+  color: #1e1e1e;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: #0078ff;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+

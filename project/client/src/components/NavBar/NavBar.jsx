@@ -1,41 +1,51 @@
 import React from "react";
-import styled from "styled-components";
-import Burger from "./Burger";
 
-const Nav = styled.nav`
-  width: 100%;
-  height: 55px;
-  border-bottom: 2px solid #f1f1f1;
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-  z-index: 999;
-
-  .logo {
-    padding: 15px 0;
-    z-index: 999;
-    color: rgb(108, 57, 207);
-    font-size: 1.5rem;
-  }
-`;
-
-const Navbar = () => {
+const NavBar = () => {
   return (
-    <Nav>
-      <div className="logo">
-        <strong>
-          <a
-            href="#logo"
-            rel="noreferrer"
-            /* target="_blank" */
-          >
-            LOGO
-          </a>
-        </strong>
+    <nav className="navbar navbar-expand-sm navbar-dark bg-color-nav" id="navbar">
+      <div className="container-fluid">
+        <a className="navbar-brand nav-logo" href="#header">
+          Logo
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link" href="#services">
+                Services
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#about">
+                About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#gallery">
+                Gallery
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">
+                Contact
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#testimonials">
+                Testimonials
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <Burger />
-    </Nav>
+    </nav>
   );
 };
-
-export default Navbar;
+export default NavBar;

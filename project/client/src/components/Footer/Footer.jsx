@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-light text-lg-start">
+    <footer className="bg-light text-lg-start style={{height:2rem}}">
       <div className="py-4 text-center">
-        <div className="text-center py-4 align-items-center">
+        <div className="text-center-title py-4 align-items-center">
           <p>Follow «CyanTechSolutions» on social media</p>
           <a
             href="#!"
@@ -34,7 +34,7 @@ const Footer = () => {
             <i className="fab fa-twitter"></i>
           </a>
           <a
-            href="https://github.com/mdbootstrap/mdb-ui-kit"
+            href="https://cyantechsolutions.com"
             className="btn btn-primary m-1"
             role="button"
             rel="noreferrer"
@@ -50,7 +50,7 @@ const Footer = () => {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
           © 2022 Copyright:
-          <a className="text-dark txt" href="#!">
+          <a className="txt" href="#!">
              {" "}CyanTechSolutions.com
           </a>
         </div>

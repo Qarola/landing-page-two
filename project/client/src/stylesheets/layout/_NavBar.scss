@@ -1,0 +1,16 @@
+#navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+  .nav-item, .nav-link {
+    color: #fff !important;
+  }
+  .nav-logo {
+    color: #000;
+  }
+  .bg-color-nav {
+    background: #f12711;
+    background: -webkit-linear-gradient(to left, #f5af19, #f12711);
+    background: linear-gradient(to left, #f5af19, #f12711); 
+  }
