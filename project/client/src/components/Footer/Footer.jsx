@@ -51,7 +51,8 @@ const Footer = () => {
         >
           © 2022 Copyright:
           <a className="txt" href="#!">
-             {" "}CyanTechSolutions.com
+            {" "}
+            CyanTechSolutions.com
           </a>
         </div>
       </div>

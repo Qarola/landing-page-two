@@ -1,6 +1,12 @@
-/*
-GENERAL STYLING
-*/
+//PALETTES
+$colorWhite: #fff;
+$colorBlueGradient:  linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%);
+$colorBlack: #000;
+$colorLessBlack: #1e1e1e;
+$colorLightBlueGradient: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+
+
+/*GENERAL STYLING*/
 body {
   background-color: #fff !important;
   scroll-behavior: auto;

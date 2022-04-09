@@ -2,8 +2,9 @@
 	padding: 100px 0;
 }
 .portfolio-item {
+	display: grid;
 	padding: 0.5;
-	margin-bottom: 2.5rem;
+	margin-bottom: 1rem;
 	height: 35vh;
 	width: 100%;
 	position: relative;
@@ -12,6 +13,8 @@
 	background-position: center center;
 	outline: none !important;
 	flex-wrap: wrap;
+	margin-left: 0.8rem;
+	cursor: pointer;
 	
 }
 .portfolio-item .hover-bg {
@@ -23,8 +26,8 @@
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
-	color: #fff;
-	background: linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%);
+	color: $colorWhite;
+	background: $colorBlueGradient;
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -33,7 +36,7 @@
 }
 .hover-bg .hover-text>h4 {
 	opacity: 0;
-	color: #fff;
+	color: $colorWhite;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
 	transition: all 0.3s;
@@ -51,12 +54,16 @@
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-
+.section-title {
+	color: $colorBlack;
+}
 .line {
 	border: none;
 	border-width: 1;
 	margin: 3rem;
 	margin-top: 7rem;
+
+	@include mobile() {
+		margin-top: -1rem;
+	}
   }
-  
-  

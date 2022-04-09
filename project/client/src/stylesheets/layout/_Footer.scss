@@ -1,10 +1,10 @@
 .bar {
   margin-bottom: -3rem;
-  background-color: black !important;
+  background-color: $colorBlack !important;
 }
 .txt {
   text-decoration: none;
-  color: #fff;
+  color: $colorWhite;
 
 
 }
@@ -13,9 +13,9 @@ color: blue !important;
 } 
 
 .text-center {
-  color: #fff;
+  color: $colorWhite;
 }
 
 .text-center-title {
-  color: #1e1e1e;
+  color: $colorLessBlack;
 }

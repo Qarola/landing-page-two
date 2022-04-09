@@ -1,15 +1,30 @@
 #about {
 	padding: 100px 0;
+
+	@include mobile() {
+		margin-top: -10rem !important;
+	}
+
+	@include tablet() {
+		margin-top: -9rem !important;
+	}
+
+	@include desktop() {
+		margin-top: -3rem;
+	}
 }
+
 #about h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
 }
+
 #about h2 {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
+
 #about h2::after {
 	position: absolute;
 	content: "";
@@ -19,6 +34,7 @@
 	bottom: 0;
 	left: 0;
 }
+
 #about .about-text li {
 	margin-bottom: 6px;
 	margin-left: 6px;
@@ -34,14 +50,28 @@
 	font-weight: 300;
 	padding-right: 8px;
 }
+
 #about img {
 	width: 35rem;
 	margin-top: 0rem;
-	background: #fff !important;
+	background: $colorWhite !important;
 	border-right: 0;
-	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
+
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
+}
+
+.container {
+	@include mobile() {
+		padding-top: -5rem;
+	}
+}
+
+.about-text {
+	@include tablet() {
+		margin-top: 2rem;
+	}
 }

@@ -2,9 +2,12 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-color-nav" id="navbar">
+    <nav
+      className="navbar navbar-expand-sm navbar-dark bg-color-nav"
+      id="navbar"
+    >
       <div className="container-fluid">
-        <a className="navbar-brand nav-logo" href="#header">
+        <a className="navbar-brand nav-logo" href="#page-top">
           Logo
         </a>
         <button
@@ -13,6 +16,7 @@ const NavBar = () => {
           data-bs-toggle="collapse"
           data-bs-target="#collapsibleNavbar"
         >
+          {" "}
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="collapsibleNavbar">

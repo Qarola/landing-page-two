@@ -1,6 +1,6 @@
 #contact {
   padding: 100px 0;
-	color: #fff;
+	color: $colorWhite;
   } 
   
   .line {
@@ -11,14 +11,21 @@
   
    .title-form {
     margin-top: -25rem;
-    color: #1e1e1e;
+    color: $colorLessBlack;
+
+    @include mobile() {
+      margin-top: -30rem;
+    }
+    @include tablet() {
+      margin-top: -30rem !important;
+    }
   } 
   
   .ctn-form {
     margin-top: 25rem;
   }
   .btn-submit {
-      background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+      background: $colorLightBlueGradient;
   
   }
   

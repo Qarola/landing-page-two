@@ -6,7 +6,9 @@ const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2><strong>Our Services</strong></h2>
+          <h2>
+            <strong>Our Services</strong>
+          </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
@@ -36,6 +38,3 @@ const Services = (props) => {
 };
 
 export default Services;
-
-// #2196f3 azul
-//  #48c26c verde menta

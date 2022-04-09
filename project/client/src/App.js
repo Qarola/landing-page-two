@@ -6,22 +6,23 @@ import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
 import Form from "./components/Form/Form";
 import Footer from "./components/Footer/Footer";
-import SmoothScroll from 'smooth-scroll';
-import JsonData from './data/data.json';
+//import SmoothScroll from 'smooth-scroll';
+import JsonData from "./data/data.json";
 import "./stylesheets/App.scss";
-import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/css/bootstrap.css";
+import Testimonials from "./components/Testimonials/testimonials";
 
-export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
+/* export const scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 500,
   speedAsDuration: true,
-});
+}); */
 
 function App() {
   const [landingPageData, setLandingPageData] = useState({});
 
   useEffect(() => {
-    setLandingPageData(JsonData)
-  }, [])
+    setLandingPageData(JsonData);
+  }, []);
 
   return (
     <div className="App">
@@ -30,8 +31,8 @@ function App() {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Gallery />
-      <br />
       <Form />
+      <Testimonials data={landingPageData.Testimonials} />
       <Footer />
     </div>
   );

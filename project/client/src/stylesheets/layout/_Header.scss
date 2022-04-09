@@ -1,47 +1,67 @@
 .particle {
-    height: 100vh;
-    width: 100%;
+  height: 100vh;
+  width: 100%;
+
+  @include desktop() {
+    margin-top: 0rem;
   }
-  
-  .title-header {
-    font-family: 'Rubik Moonrocks', cursive;
-    font-size: 5rem;
-    margin-top: -7rem;
-    z-index: 999;
-    text-align: center;
-   display: flex;
-   justify-content: center !important;
+}
+
+.title-header {
+  font-family: "Rubik Moonrocks", cursive;
+  font-size: 5rem;
+  margin-top: -7rem;
+  z-index: 999;
+  text-align: center;
+  display: flex;
+  justify-content: center !important;
+
+  @include mobile() {
+    margin-top: -14rem !important;
+    font-size: 4rem;
   }
-  
-  header .intro-text {
-      padding-top: 350px;
-      padding-bottom: 200px;
-      text-align: center;
+
+  @include tablet() {
+    margin-top: -11rem !important;
   }
-  
-  .paragraph {
-    color: #000;
+
+  @include desktop() {
+    margin-top: -10rem;
   }
-  
-   .btn-header {
-    border-radius: 25px;
-    border-color: #000;
-    color: #fff;
-    margin-top: 2rem;
-    width: 10rem;
-    height: 2.5rem;
-    background: #f12711;
-    background: -webkit-linear-gradient(to left, #f5af19, #f12711);
-    background: linear-gradient(to left, #f5af19, #f12711); 
-   cursor: pointer !important;
-   z-index: 999;
-   text-decoration: none;
+
+}
+
+header .intro-text {
+  padding-top: 350px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.paragraph {
+  color: $colorBlack;
+}
+
+.btn-header {
+  border-radius: 25px;
+  border-color: $colorBlack;
+  color: $colorWhite;
+  margin-top: 2rem;
+  width: 10rem;
+  height: 2.5rem;
+  background: #f12711;
+  background: -webkit-linear-gradient(to left, #f5af19, #f12711);
+  background: linear-gradient(to left, #f5af19, #f12711);
+  cursor: pointer !important;
+  z-index: 999;
+  text-decoration: none;
+
+  @include mobile() {
+    margin-top: -3rem;
   }
-  
-  .btn-header:hover {
-    
-    background-color: #cde1f8;
-    cursor: pointer;
-    color: #000;
-  }
-  
+}
+
+.btn-header:hover {
+  background-color: #cde1f8;
+  cursor: pointer;
+  color: $colorBlack;
+}
