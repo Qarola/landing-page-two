@@ -1,3 +1,3 @@
 # landing-page-two
 
-![screencapture-lp-sample2](https://user-images.githubusercontent.com/67078790/162584610-e9cfa71a-1495-4144-9979-bee1b4762908.png)
+![screencapture-qarola-lp-sample-two-netlify-app-2022-04-18-22_06_59](https://user-images.githubusercontent.com/67078790/163912418-889652fc-885a-42d5-81da-a06d15df9b4a.png)
