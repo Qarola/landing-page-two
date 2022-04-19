@@ -72,6 +72,14 @@ const Form = () => {
             </div>
           </section>
         </div>
+        <a
+          href="https://wa.me/573145648859"
+          className="whatsapp_float"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa fa-whatsapp whatsapp-icon"></i>
+        </a>
       </main>
       <hr className="line"></hr>
     </>
