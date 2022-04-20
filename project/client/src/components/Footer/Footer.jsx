@@ -1,4 +1,7 @@
 import React from "react";
+import {BsFacebook} from 'react-icons/bs';
+import {AiFillInstagram, AiFillYoutube} from 'react-icons/ai';
+
 
 const Footer = () => {
   return (
@@ -13,7 +16,8 @@ const Footer = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <i className="fa-brands fa-instagram"></i>
+            <AiFillInstagram />
+           {/*  <i className="fa-brands fa-instagram"></i> */}
           </a>
           <a
             href="#!"
@@ -22,7 +26,8 @@ const Footer = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <i className="fab fa-facebook-f"></i>
+            <BsFacebook />
+           {/*  <i className="fab fa-facebook-f"></i> */}
           </a>
           <a
             href="#!"
@@ -31,9 +36,10 @@ const Footer = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <i className="fab fa-twitter"></i>
+            <AiFillYoutube />
+           {/*  <i className="fab fa-twitter"></i> */}
           </a>
-          <a
+          {/* <a
             href="https://cyantechsolutions.com"
             className="btn btn-primary m-1"
             role="button"
@@ -41,7 +47,7 @@ const Footer = () => {
             target="_blank"
           >
             <i className="fab fa-github"></i>
-          </a>
+          </a> */}
         </div>
 
         {/* Copyright */}

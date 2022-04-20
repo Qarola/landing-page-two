@@ -1,64 +1,66 @@
 #contact {
   padding: 100px 0;
-	color: $colorWhite;
-  } 
-  
-  .line {
-    border: none;
-    border-width: 1;
-    margin: 3rem;
-  }
-  
-   .title-form {
-    margin-top: -25rem;
-    color: $colorLessBlack;
+  color: $colorWhite;
+}
 
-    @include mobile() {
-      margin-top: -30rem;
-    }
-    @include tablet() {
-      margin-top: -30rem !important;
-    }
-  } 
-  
-  .ctn-form {
-    margin-top: 25rem;
+.line {
+  border: none;
+  border-width: 1;
+  margin: 3rem;
+}
+
+.title-form {
+  margin-top: -25rem;
+  color: $colorLessBlack;
+
+  @include mobile() {
+    margin-top: -30rem;
   }
-  .btn-submit {
-      background: $colorLightBlueGradient;
-  
+
+  @include tablet() {
+    margin-top: -30rem !important;
   }
-  
-  .whatsapp_float {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
+}
+
+.ctn-form {
+  margin-top: 25rem;
+}
+
+.btn-submit {
+  background: $colorLightBlueGradient;
+
+}
+
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
 }
 
 .whatsapp-icon {
-    margin-top: 16px;
+  margin-top: 12px;
 }
 
 /* for mobile */
 @media screen and (max-width: 767px) {
-    .whatsapp-icon {
-        margin-top: 10px;
-    }
+  .whatsapp-icon {
+    margin-top: 6px;
+  }
 
-    .whatsapp_float {
-        width: 40px;
-        height: 40px;
-        bottom: 20px;
-        right: 10px;
-        font-size: 22px;
-    }
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
 }
