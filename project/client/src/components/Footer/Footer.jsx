@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="bg-light text-lg-start style={{height:2rem}}">
       <div className="py-4 text-center">
         <div className="text-center-title py-4 align-items-center">
-          <p>Follow «CyanTechSolutions» on social media</p>
+          <p>Follow «Carolina Altamiranda N.» on social media</p>
           <a
             href="#!"
             className="btn btn-primary m-1"
@@ -55,10 +55,10 @@ const Footer = () => {
           className="text-center p-3 bar"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
-          © 2022 Copyright:
+          © 2022
           <a className="txt" href="#!">
             {" "}
-            CyanTechSolutions.com
+            Carolina Altamiranda N.
           </a>
         </div>
       </div>
